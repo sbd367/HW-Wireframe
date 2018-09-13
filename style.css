@@ -13,15 +13,17 @@ div.Header{
 div.nav{
     background: #ebebeb;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 8px;
     padding: 20px
 }
 div.section{
     background: #ebebeb;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 495px;
     height: 150px;
+    float: left;
+    
     
 }
 div.article{
@@ -50,17 +52,22 @@ div.para{
     padding: 5px;
 }
 div.aside{
-    display: flex;
-    flex-direction: row;
     float: right;
     color: #777;
-    background: #ebebeb
+    background: #ebebeb;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 445px;
+    height: 150px;
+    
 }
 div.footer{
     color: #777;
     background: #ebebeb;
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
     padding: 20px;
+    clear: both;
 
 }
